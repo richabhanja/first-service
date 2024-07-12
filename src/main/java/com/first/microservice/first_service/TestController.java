@@ -15,4 +15,9 @@ public class TestController {
     {
         return "Hello Geeks And Welcome to GeekForGeeks !!!";
     }
+
+    @GetMapping("/test1") public String test1()
+    {
+        return "Hello Geeks And Welcome to GeekForGeeks !!!";
+    }
 }
